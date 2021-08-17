@@ -1,0 +1,559 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"1";
+    src: url("fuentes/Quicksand_Light.otf");
+}
+@font-face
+{
+    font-family: "2";
+    src: url('fuentes/LanterosySansSerifFont.ttf');
+}
+
+@font-face
+{
+    font-family: "3";
+    src: url('fuentes/Quicksand_Book.otf');
+}
+
+/*
+.seccion1
+{
+
+ 
+ background-color: #eddcca;
+}*/
+.image1
+{
+    height: 50vw;
+    width: 99.1vw;
+    display: flex;
+}
+
+.nombre
+{
+    position: absolute;
+    font-size: 5vw;
+    margin: 0px;
+    top: 15vw;
+    left: 8vw;
+    display: flex;
+    font-family: "2";
+    color: white;
+}
+
+.subnombre
+{
+    position: absolute;
+    font-size: 2vw;
+    color: #2d4d50;  /*#2d4d50*/ /*#6c3a24*/
+    top: 27vw;
+    left: 8vw;
+    display: flex;
+    font-family: "2";
+
+}
+ 
+.caja1
+{
+    max-height: 100vh;
+    max-width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.header
+{
+    width: 100%;
+    height: 65px;
+    background: #6c2726;
+    position: absolute;
+    
+}
+.container
+{
+    max-width: 1100px;
+    margin: auto;
+}
+.logo
+{
+  float:left;
+  line-height: 65px;
+}
+.logo h1
+{
+ color: #eddcca;
+}
+
+.menu
+{
+    float: right;
+    line-height: 65px; /*para alinear al emdio*/
+    
+}
+.menu ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.menu a
+{
+    display: block;
+    padding: 0px 20px;  /*el espaciado entre ellos*/
+    text-decoration: none; /*para que no se vea su subrayado*/
+    color: #eddcca;
+    transition: all 500ms ease;
+    font-family: "2";
+    font-size: 23px;
+}
+
+.menu a:hover
+{
+    background: #eddcca;  /*#eddcca   #6c2726*/
+    color:#6c2726 /*cambie el color de la letra*/
+    
+}
+
+.menu .submenu
+{
+    background: white; /**/
+    
+    display: none; /*para ocvultar la lsita del submenu*/
+}
+.menu .submenu li a /*el submenu cuanto se agrandara*/
+{
+ line-height: 50px;
+ background: #eddcca;
+ color: #6c2726;   
+}
+
+.menu .submenu a:hover
+{
+    background: #6c2726;
+    color: #eddcca;  
+}
+
+.menu ul li a:hover + ul, .menu .submenu:hover
+{
+    display: block;
+    
+    
+}
+
+.logo h1    
+{
+    font-family: "3";
+    font-size: 32px;
+}
+
+/*-----------------------------------------------*cCAJA2  2-------------------------------------*/
+.caja2
+{
+    max-height: 100vw;
+    max-width: 100%; 
+    color: #183030;
+}
+.section2
+{
+    height: 10vw;
+    
+    background-color: #eddcca;
+
+}
+.contexto
+{
+    
+    padding-top: 4vw;
+    color: #ac8e4d;
+    font-size: 2vw;
+    font-family: "3";
+    text-align: center;
+}
+
+
+.caja3
+{
+    max-height: 100vw;
+    max-width: 100%; 
+   
+}
+.section3
+{
+    
+    
+    background-color: #af8a62;
+
+}
+
+.tazita-cafe
+{
+    height: 3vw;
+    width: 100%;
+    display: flex;
+}
+
+.section4
+{
+    max-width: auto;
+    height: 8vw;
+    background-color: #eddcca;
+}
+.contexto2
+{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    color: #000000;
+    font-size: 1.40vw;
+    font-family: "3";
+    text-align: center;
+    
+}
+
+.cafe-horizontal
+{
+    height: 40vw;
+     width: 50%;
+    background-color: #db7100;
+}
+.cafe2-horizontal
+{
+    height: 40vw;
+    width: 100%;
+    background-color: #eddcca;
+}
+
+.section5 
+{
+    height: 30vw;
+    width: 50%;
+    float: left;
+    background-color: #6c2726;;
+}
+.section51
+{
+    height: 30vw;
+    width: 50%;
+    background-color: black;
+    float: left;
+    
+}
+
+
+.nosotros
+{
+    font-family: "2";
+    font-size: 3vw;
+    
+    color: #eddcca;
+    text-align: center;
+    padding-top: 4vw;
+}
+.nosotros2
+{
+    font-family: "3";
+    font-size: 1.3vw;
+    
+    color: #eddcca;
+    text-align: justify;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 2%;
+}
+.cafepersona 
+{
+    width: 100%;
+    height: 30vw;
+}
+
+
+
+.caja6
+{
+    height: 86vw;
+    width: 100%;
+    
+    background-color: #eddcca;;
+}
+ 
+
+.contemen
+{ 
+    color: #6c2726;
+    font-family: "2";
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 32vw;
+}
+
+
+.container
+{
+    font-family: "3";
+    font-size: 20px;
+}
+  
+.container .tit 
+{
+    color: white;
+    font-family: "3";
+    font-size: 25px;
+} 
+
+.card {
+    text-align: center;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+    background: #6c2726;
+}
+
+.card-title 
+{
+    color: white;
+}
+
+.card-text
+{
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.slider{
+  width: 100%;
+  height: 100vw;
+  overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 16s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    padding-top: 1vw;
+    width: 100%;
+    height: 47vw;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+} /*
+@media only screen and (min-width:320px) and (max-width:768px)
+{
+.slider, .slider ul, .slider img
+{
+    height: 100vh;
+}
+}*/
+
+.lugares
+{
+    font-family: "2";
+    font-size: 2.3vw;
+    text-align: center;
+    color: #eddcca;
+    background: #6c2726;
+}
+
+.caja7
+{
+    background-color: #6c2726;
+    height: 40vw;
+}
+
+
+.ubicacion
+{
+    font-family: "2";    
+    text-align: center;
+    color: #eddcca;
+    font-size: 2.3vw;
+    padding-top: 1vw;
+
+}
+
+.mapa
+{
+    text-align: center;
+}
+
+.caja9
+{
+    background-color: #eddcca;
+    height: 35vw;
+}
+
+.productos
+{
+    text-align: center;
+    font-family: "2";
+    font-size: 3vw;
+    padding-top: 1vw;
+    color: #6c2726;
+}
+
+.caja10
+{
+    background-color: #6c2726;
+    height: 1vw;
+}
+
+.caja11
+{
+    background-color: #eddcca;
+    height: 5vw;
+}
+.caja12
+{
+    background-color: #6c2726;
+    height: 1vw;
+}
+
+.CONTACTO
+{
+    text-align: center;
+    font-family: "2";
+    font-size: 3vw;
+    color: #6c2726; 
+}
+
+.caja13
+{
+    background-color: #eddcca;
+    height: 22vw;
+    width: 50%;
+    float: left;
+}
+
+.caja133
+{
+    background-color: #eddcca;
+    height: 22vw;
+    width: 25%;
+    float: left;
+}
+
+.contacto
+
+{
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    color: #6c2726;
+    font-family: "2";
+}
+
+.subeer
+{
+
+    font-size: 1.2vw;
+    color: #6c2726;
+    font-family: "3";
+}
+.caja134
+{
+    background-color: #eddcca;
+    height: 22vw;
+    width: 25%;
+    float: left;
+}
+
+.final
+{
+    background: #6c2726;
+    height: 26vw;
+}
+
+.fin
+{
+    text-align: center;
+    color: #eddcca;
+    font-family: "2";
+    font-size: 2vw;
+}
+
+
+
+.logotipo 
+{
+    
+    width: 60%;
+    height: 20vw;
+}
+
+
+.mapa
+{
+    height: 35vw;
+    width: 100%;
+}
+
+.caja999
+{
+    background-color: #f38e22;
+    height: 26vw;
+    width: 50%;
+    float: left;
+    font-family: "2";
+    font-size: 2vw;
+    color: #6c2726;
+    text-align: center;
+
+}
+.caja9999
+{
+    background-color: #6c2726;
+    height: 29.3vw;
+    width: 50%;
+    float: left;
+    font-family: "2";
+    color: #eddcca;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.delivery
+{
+    
+    width: 100%;
+}
+
+.servicioos
+{
+    font-family: "3";
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}

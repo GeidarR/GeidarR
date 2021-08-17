@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffe</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap Grid -->
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <!-- Estilos CSS de personalización -->
+  <link rel="stylesheet" href="carrito.css">
+  
+</head>
+
+
+
+<header id="home" class="header">
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="navigation container">
+      <div class="logo">
+        <h1>Coffe</h1>
+      </div>
+
+      <div class="menu">
+        <div class="top-nav">
+          <div class="logo">
+            <h1>Codevo</h1>
+          </div>
+          <div class="close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link scroll-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#productoss" class="nav-link">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link scroll-link">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/profile.php?id=100071792106576&show_switched_toast=true" class="nav-link scroll-link">Contacto</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <img class="imganeras" src="as.jpg">
+  </header>
+
+<body>
+  
+
+
+
+  
+  <!-- Product Banner -->
+  <section class="section">
+    <div class="product-banner">
+      <div class="left">
+        <img src="cafesafd.png" alt="" />
+      </div>
+      <div class="right">
+        <div class="content">
+          <h2><span class="discount">aprovecha nuestras </span> </h2>
+          <h1>
+            <span>Ofertas especiales </span>
+            <span>solo en nuestros locales</span>
+          </h1>
+          <a class="btn" href="#">inicio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="espaciadoXD">
+
+  </section>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <!-- Titulo de tienda -->
+        <h2>Tienda</h2>
+      </div>
+      <div class="col-sm-3">
+        <!-- Carrito de compras y sus items -->
+        <div class='carrito'>
+          
+          <p class="carrito-total">
+            <span class="simpleCart_quantity">0</span> compras <span class="simpleCart_total">S/0.00</span>
+          </p>
+
+          <div class="bolsa">
+            <div class="simpleCart_items"></div>
+            <div class="opciones">
+              <a class="boton simpleCart_empty" href="javascript:void(0)">Vaciar carrito</a>
+              <a class="boton simpleCart_checkout" href="#">realizar compras</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="productoss">
+    <div class="row">
+      <!--  Contenedor con el nombre principal (simpleCart_shelfItem)
+        todos los items de un loop lo deben de tener -->
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+        <!-- Nombre del producto se obtiene al agregar la clase (item_name) -->
+        <h2 class="item_name">Cafe Bombon</h2>
+        <!-- Imagen del producto se obtiene al agregar la clase (item_image) -->
+        <img class="item_image" src="imagenes/cafebombon.png" alt="Auto Azul"/>
+        <!-- Cantidad a requerir del producto se obtiene al agregar la clase (item_Quantity) -->
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <!-- Precio del producto se obtiene al agregar la clase (item_price) -->
+        <div class="item_price">S/10</div>
+        <!-- Añadir el producto al carrito, se logra agregando la clase (item_add) -->
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+        <h2 class="item_name">Cafe de Coco</h2>
+
+        <img class="item_image" src="imagenes/cafeconlechecoco.jpg" alt="Auto Naranja"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/7</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+
+        <h2 class="item_name">Cafe Dalgona</h2>
+        <img class="item_image" src="imagenes/cafedalgona.jpg" alt="Auto Rojo"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/5.50</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+        <h2 class="item_name">Cafe de horizon</h2>
+
+        <img class="item_image" src="imagenes/cafehorizon.png" alt="Auto Naranja"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/6</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+
+        <h2 class="item_name">Cafe Espumoso</h2>
+        <img class="item_image" src="imagenes/cafeespumoso.jpg" alt="Auto Gris"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/8.50</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+
+        <h2 class="item_name">Cafe Mocha</h2>
+        <img class="item_image" src="imagenes/mocha.jpg" alt="Auto Gris"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/8.50</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+        <h2 class="item_name">Cafe Latte</h2>
+
+        <img class="item_image" src="imagenes/latte.jpg" alt="Auto Naranja"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/7</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+
+        <h2 class="item_name">Cafe Mousse</h2>
+        <img class="item_image" src="imagenes/mousse.png" alt="Auto Gris"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/6.50</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 simpleCart_shelfItem">
+
+        <h2 class="item_name">Cafe de calabaza</h2>
+        <img class="item_image" src="imagenes/calabaza.png" alt="Auto Gris"/>
+        <input class="item_Quantity" type="number" min="1" max="10" value="1"/>
+        <div class="item_price">S/8.50</div>
+        <a class="item_add" href="javascript:;"> Añadir al carrito </a>
+
+      </div>
+
+      
+    
+  </div>
+  <section class="espaciadoXD">
+
+  </section>
+  
+
+<section class="espaciadoXD">
+
+</section>
+<!-- Testimonials -->
+<section class="section">
+  <div class="testimonial-center container">
+    <div class="testimonial">
+      <span>&ldquo;</span>
+      <p>
+        Los mejores cafes se encuentran aqui, sabores exquisitos de la mejor calidad
+      </p>
+      <div class="rating">
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bx-star"></i>
+      </div>
+      <div class="img-cover">
+        <img src="./imagenes/1.jpg" alt="" />
+      </div>
+      <h4>ROCIO</h4>
+    </div>
+    <div class="testimonial">
+      <span>&ldquo;</span>
+      <p>
+        Definitivamente un lugar agradable para disfrutar de una experiencia inolvidable con una buena taza de cafe a lado.
+      </p>
+      <div class="rating">
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bx-star"></i>
+      </div>
+      <div class="img-cover">
+        <img src="./imagenes/2.jpg" alt="" />
+      </div>
+      <h4>YIMI</h4>
+    </div>
+    <div class="testimonial">
+      <span>&ldquo;</span>
+      <p>
+        la atencion fue increible, estoy muy a gusto con el trato del personal, y definitivamente recomiendo este lugar  
+      </p>
+      <div class="rating">
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bx-star"></i>
+      </div>
+      <div class="img-cover">
+        <img src="./imagenes/choco.jpg" alt="" />
+      </div>
+      <h4>CHOCO</h4>
+    </div>
+  </div>
+</section>
+
+<section class="espaciadoXD">
+
+</section>
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a class="aas" >Nuestras Redes Sociales</a>
+      
+        <a class="redes" href="https://www.facebook.com/profile.php?id=100071792106576&show_switched_toast=true"><br>facebook</a>
+        <a class="redes" href="https://www.youtube.com/channel/UCeFT63uWUy8_ZWBPw-agX9g">youtube</a>
+
+      </div>
+    </div>
+  </footer>
+
+  
+
+  
+  <!-- Agregamos la librería jQuery (Importante)-->
+  <script src="js/jquery.min.js"></script>
+  <!-- Agregamos la librería Simple Cart -->
+  <script src="js/simpleCart.min.js"></script>
+  <!-- Código JS de inicialización  -->
+  <script src="js/app.js"></script>
+</body>
+
+
+</html>
